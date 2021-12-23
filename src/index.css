@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
   min-height: 100vh;
-  background: hsl(228, 56%, 26%), url("./assets/images/bg-desktop.png");
+  background: hsl(229, 57%, 11%);
 }
 
 code {
