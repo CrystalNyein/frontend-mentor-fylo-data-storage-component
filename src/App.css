@@ -7,9 +7,16 @@ main {
   display: grid;
   place-content: center;
 }
+h1 {
+  max-width: 90vw;
+  color: hsl(243, 100%, 93%);
+  text-align: center;
+  margin: 1rem 0 3rem;
+}
 .container {
   width: 50rem;
   max-width: 90vw;
+  margin-bottom: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -123,6 +130,9 @@ h4 span {
   color: hsl(243, 100%, 93%);
 }
 @media only screen and (max-width: 720px) {
+  html {
+    font-size: 15px;
+  }
   main {
     background-image: url("./assets/images/bg-mobile.png");
     background-size: cover;

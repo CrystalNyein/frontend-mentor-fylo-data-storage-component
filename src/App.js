@@ -7,9 +7,9 @@ import upload from "./assets/images/icon-upload.svg";
 function App() {
   return (
     <main className="App">
+      <h1>Fylo Data Storage Component</h1>
       <div className="container">
         <div className="fylo">
-          <h1></h1>
           <img id="logo" src={logo} alt="Fylo Logo" />
           <div className="actions">
             <div className="img-div">
