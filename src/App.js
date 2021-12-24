@@ -9,6 +9,7 @@ function App() {
     <main className="App">
       <div className="container">
         <div className="fylo">
+          <h1></h1>
           <img id="logo" src={logo} alt="Fylo Logo" />
           <div className="actions">
             <div className="img-div">
