@@ -55,13 +55,13 @@ h1 {
   background-color: hsl(228, 56%, 26%);
   border-radius: 0.5rem;
 }
-.data-usage h4 {
+.data-usage > p {
   color: hsl(243, 100%, 93%);
   font-weight: 400;
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
-h4 span {
+.data-usage > p span {
   font-weight: 700;
 }
 .slider {
@@ -149,7 +149,7 @@ h4 span {
   .data-usage {
     padding-bottom: 3rem;
   }
-  .data-usage h4 {
+  .data-usage > p {
     text-align: center;
   }
   .gb-reminder {

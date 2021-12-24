@@ -24,9 +24,9 @@ function App() {
           </div>
         </div>
         <div className="data-usage">
-          <h4>
+          <p>
             You've used <span>815GB</span> of your storage
-          </h4>
+          </p>
           <div className="slider">
             <div className="progress-bar" />
             <div className="gb-reminder">
