@@ -122,3 +122,34 @@ h4 span {
   font-size: 0.9rem;
   color: hsl(243, 100%, 93%);
 }
+@media only screen and (max-width: 720px) {
+  main {
+    background-image: url("./assets/images/bg-mobile.png");
+    background-size: cover;
+  }
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .fylo,
+  .data-usage {
+    width: 22rem;
+    max-width: 90vw;
+  }
+  .data-usage {
+    padding-bottom: 3rem;
+  }
+  .data-usage h4 {
+    text-align: center;
+  }
+  .gb-reminder {
+    left: 50%;
+    bottom: -6rem;
+    right: unset;
+    transform: translateX(-50%);
+    min-width: 9.1rem;
+  }
+  .gb-reminder::after {
+    border: none;
+  }
+}
